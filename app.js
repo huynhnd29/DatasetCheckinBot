@@ -3,7 +3,7 @@ const { GoogleSpreadsheet } = require('google-spreadsheet');
 
 const bot = new Telegraf('2129347931:AAEwfxGojMtFZFm76vJZjQzqIVVGbau951A');
 console.log("run app")
-
+.listen(process.env.PORT || 5000)
 
 async function accessSpreadSheet(name, user_Name, hour, date, chat_id, is_late){
     const doc = new GoogleSpreadsheet('1UelLtbqTyZDoH0qCFkHY0SUthSGvcPfeJ3MP9i9r28M');
