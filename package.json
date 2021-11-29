@@ -2,16 +2,21 @@
   "name": "telegraf",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.24.0",
     "google-spreadsheet": "^3.2.0",
-    "telegraf": "^4.4.2"
+    "telegraf": "^4.4.2",
+    "date-fns": "^2.25.0",
+    "formidable": "^1.2.2",
+    "json-server": "^0.16.1",
+    "jsonwebtoken": "^8.5.1",
+    "lowdb": "^1.0.0"
   }
 }

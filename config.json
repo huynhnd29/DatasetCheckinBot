@@ -1,6 +1,6 @@
 {
-    "defaultPort": 3000,
-    "databaseFile": "database.json",
-    "jwtSecret": "robin_huy",
-    "jwtTokenexpiresInMinutes": "10"
-  }
+  "defaultPort": 3000,
+  "databaseFile": "database.json",
+  "jwtSecret": "huynh",
+  "jwtTokenexpiresInMinutes": "10"
+}
