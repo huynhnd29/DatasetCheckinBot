@@ -1,7 +1,9 @@
 const { Telegraf } = require('telegraf');
 const { GoogleSpreadsheet } = require('google-spreadsheet');
 
-const bot = new Telegraf('2103058134:AAFOgsh0D4oKpWS6p9Szy7AjQS-AfHPI34g');
+const bot = new Telegraf('2129347931:AAEwfxGojMtFZFm76vJZjQzqIVVGbau951A');
+console.log("run app")
+
 
 async function accessSpreadSheet(name, user_Name, hour, date, chat_id, is_late){
     const doc = new GoogleSpreadsheet('1UelLtbqTyZDoH0qCFkHY0SUthSGvcPfeJ3MP9i9r28M');
